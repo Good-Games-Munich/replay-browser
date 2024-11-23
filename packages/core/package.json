@@ -1,0 +1,22 @@
+{
+    "name": "@ggm-replays/core",
+    "type": "module",
+    "description": "Common utilities for both the collector and browser",
+    "version": "0.0.1",
+    "exports": {
+        "./schemas": "./src/schemas/index.ts",
+        "./queues": "./src/queues.ts"
+    },
+    "scripts": {
+        "check-types": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "zod": "^3.23.8"
+    }
+}
