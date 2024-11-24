@@ -25,7 +25,11 @@
   // Configure tool-specific properties.
   "customizations": {
     "vscode": {
-      "extensions": ["biomejs.biome", "bradlc.vscode-tailwindcss"],
+      "extensions": [
+        "biomejs.biome",
+        "bradlc.vscode-tailwindcss",
+        "editorconfig.editorconfig"
+      ],
       "settings": {
         "editor.defaultFormatter": "biomejs.biome",
         "editor.formatOnSave": true
