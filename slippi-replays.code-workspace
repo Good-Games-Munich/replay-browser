@@ -5,11 +5,11 @@
       "name": "Root"
     },
     {
-      "path": "apps/collector",
+      "path": "apps/replay-collector",
       "name": "Replay Collector"
     },
     {
-      "path": "apps/browser",
+      "path": "apps/replay-browser",
       "name": "Replay Browser"
     },
     {
